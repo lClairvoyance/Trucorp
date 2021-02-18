@@ -11,7 +11,7 @@ $result = mysqli_query($link,$query);
 
 $user = mysqli_num_rows($result);
 
-echo "There are ".$user" user ";
+echo "There are ".$user. " user";
 
 mysqli_close($link);
 ?>
