@@ -8,6 +8,6 @@ RUN chmod -R 774 /var/www/html/
 
 RUN chown -R www-data. /var/www/html/
 
-COPY index.php /var/www/html/
+COPY patch.php /var/www/html/
 
 EXPOSE 80
